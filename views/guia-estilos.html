@@ -21,28 +21,174 @@
     </nav>   
 
     <div class="flex justify-center py-16">
-        <div class="flex flex-col sm:container lg:container px-5" >
+        <div class="flex flex-col sm:w-9/12 lg:w-2/5 px-5" >
             <span class="text-2xl font-extrabold">Guía de Estilos</span>
             <p>Para la elaboración de la página web seeker.com, se tomaron en cuenta varios enfoques de diseño que permitieron la realización de la plantilla, como también el análisis de las páginas <a class="underline text-blue-800" href="https://www.trivago.es/">Trivago</a> y <a class="underline text-blue-800" href="https://www.booking.com/">Booking</a>.</p>
             <p>Aquí se presentarán un índice de la guía de estilos de seeker.com, pautando los puntos de la siguiente forma:</p>
-            <h1 class="text-2xl">Índice</h1>  
-            <ul class="list-none ">                    
+            <h1 class="text-2xl mt-5">Índice</h1>  
+            <ul class="list-decimal px-4">    
+                <li>
+                    <a href="#colores-utilizados">Colores utilizados</a>
+                </li>              
+                <li>
+                    <a href="#fondo-web">Fondo de la Web</a>
+                </li>
+                <li>
+                    <a href="#tipografia">Tipografía</a>
+                </li>
+                <li>
+                    <a href="#logos-imagenes">Logos e imágenes</a>
+                </li>
                 <li>
                     <a href="#estructura-html">Estructura html de seeker.com</a>
                 </li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>  
+                <li>
+                    <a href="#navegacion">Navegación</a>
+                </li>
+            </ul> 
+            
+            <div id="colores-utilizados" class="container mx-auto mt-4">
+                <span class="text-2xl font-extrabold">Colores utilizados</span>                
+                <p>Colores principales en la web.</p>
+                <div class="flex gap-2">
+                    <div class="w-24 h-24 text-center" style="background: #99a2b1;">#99a2b1</div>
+                    <div class="w-24 h-24 text-center" style="background: #4a83f4;">#4a83f4</div>
+                    <div class="w-24 h-24 text-center" style="background: #f4bf25;">#f4bf25</div>
+                    <div class="w-24 h-24 text-center border-2 border-black">#FFFF</div>
+                </div>
+                <p class="mt-5">Se ha utilizado tailwindcss para la elaboración de los estilos, los valores son referencias a los mismos.</p>
+                <table class="w-full table-auto">
+                    <thead>
+                      <tr>
+                        <th class="text-left"></th>
+                        <th class="text-right">Tamaño</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Fuente de la página principal</td>
+                            <td class="text-right">#000000</td>
+                          </tr>
+                      <tr>
+                        <td>Fondo del menú de navegación</td>
+                        <td class="text-right">#FFFFFF</td>
+                      </tr>
+                      <tr>
+                        <td>Color de los enlaces</td>
+                        <td class="text-right">#000000</td>
+                      </tr>
+                      <tr>
+                        <td>Fondo del pié de página</td>
+                        <td class="text-right">#6b7280</td>
+                      </tr>
+                      <tr>
+                        <td>Fondo de las tarjetas de la sección de los hoteles</td>
+                        <td class="text-right">#e5e7eb</td>
+                      </tr>                      
+                    </tbody>
+                </table>
+            </div>   
+
+            <div id="fondo-web" class="container mx-auto mt-4">
+                <span class="text-2xl font-extrabold">Fondo de la Web</span>
+                <p>No se ha incrustado ningún fondo en la página web, el fondo por defecto es blanco con formato #FFFFFF.</p>
+            </div>   
+
+            <div id="logos-imagenes" class="container mx-auto mt-4">
+                <span class="text-2xl font-extrabold">Logos e imágenes</span>
+                <p>Todas las imágenes se admiten formato jpg, png y jpeg salvo los íconos que se utilizan en parte de la página parte de los enlaces, botones, estos están en formato svg.</p>
+                <table class="w-full table-auto mt-5">
+                    <thead>
+                      <tr>
+                        <th class="text-left"></th>
+                        <th class="text-right">Tamaño</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Imágenes de cabecera</td>
+                        <td class="text-right">144x72</td>
+                      </tr>
+                      <tr>
+                        <td>Imágen del hotel del área de recomendados</td>
+                        <td class="text-right">368x240</td>
+                      </tr>
+                      <tr>
+                        <td>Imágen del hotel del área de los más buscados</td>
+                        <td class="text-right">232x128</td>
+                      </tr>
+                      <tr>
+                        <td>Íconos de la barra de navegación</td>
+                        <td class="text-right">20x20</td>
+                      </tr>
+                      <tr>
+                        <td>Ícono ranking de la estrella </td>
+                        <td class="text-right">16x16</td>
+                      </tr>
+                      <tr>
+                        <td>Ícono redes sociales</td>
+                        <td class="text-right">24x24</td>
+                      </tr>
+                    </tbody>
+                </table>
+            </div> 
+            
             <div id="estructura-html" class="container mx-auto mt-4">
-                <span class="text-2xl font-extrabold">Estructura html</span>
+                <span class="text-2xl font-extrabold">Mockup's Estructura html</span>
                 <p>Clasificación e identificación de los elementos de la página.</p>
-                <img src="/public/guia-estilos/estructura-html.png" width="800px"/>
-            </div>     
-            <div id="estructura-html" class="container mx-auto mt-4 grid grid-cols-1 gap-8 md:grid-cols-2 xl:grid-cols-3">
-                <span class="text-2xl font-extrabold">Estructura html</span>
-                
-            </div>         
+                <img src="/public/guia-estilos/estructura-html.png" width="600"/>
+                <p class="mt-2">Estructura horizontal para facilitar la visualización del contenido.</p>
+                <table class="w-full table-auto mt-5">
+                    <thead>
+                      <tr>
+                        <th class="text-left"></th>
+                        <th class="text-right">Tamaño</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Tamaño del contenedor principal</td>
+                        <td class="text-right">1024px</td>
+                      </tr>
+                      <tr>
+                        <td>Color de fondo</td>
+                        <td class="text-right">#FFFFFF</td>
+                      </tr>
+                    </tbody>
+                </table>
+            </div>  
+
+            <div id="navegacion" class="container mx-auto mt-4">
+                <span class="text-2xl font-extrabold">Navegación</span>
+                <p>Elementos de ordenación empleados.</p>
+                <table class="w-full table-auto mt-5">
+                    <thead>
+                      <tr>
+                        <th class="text-left">Elemento</th>
+                        <th class="text-right">Descripción</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Contenerdor</td>
+                        <td class="text-right">Div principal de 1024px de ancho (medida estándar).</td>
+                      </tr>
+                      <tr>
+                        <td>Cabecera</td>
+                        <td class="text-right">Formado por una parte informativa de la página y un formulario para la búsqueda de hoteles a decisión del usuario.</td>
+                      </tr>
+                      <tr>
+                        <td>Contenido</td>
+                        <td class="text-right">Compusto por dos secciones comprendidas entre el listado de hoteles más remocmendados a su vez del listado de los hoteles más buscados de entre el formulario de búsqueda.</td>
+                      </tr>
+                      <tr>
+                        <td>Footer</td>
+                        <td class="text-right">Pié de página, se ubica los enlaces de información de la página, ayuda, políticas, un apartado para las redes sociales y un formulario para la suscripción al boletín de noticias.</td>
+                      </tr>
+                    </tbody>
+                </table>
+            </div> 
+            
         </div>
     </div>
 
